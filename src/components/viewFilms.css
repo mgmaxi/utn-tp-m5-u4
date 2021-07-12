@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.01); 
+    border-radius: 25px;
+    max-width: 90%;
+    margin: 5px 0 50px 0;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(187, 47, 47);
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 35px;
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(69, 160, 160, 0.1);
+    box-shadow: 1px 5px 15px rgb(0, 0, 0);
+}
+
+/* cardTitle Effect */
+.cardTitle {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.cardTitle {
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   border-radius: 10px;
+ }
+
+ .cardTitle:hover {
+   background-position: right center;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+ }
+
+ .cardSynopsis {
+    width: 90%;
+    height: auto;
+    border-radius: 2px;
+    font-size: 14px;
+}
