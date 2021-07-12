@@ -13,7 +13,7 @@ This is an university work with React (U3-M5) Lifecycle and Axios (connection wi
 
 📷 Preview 
 
-<img src="preview.png" width="800" height="600">
+<img src="preview.png" width="800" height="500">
 
 📋 Task 
 
