@@ -1,7 +1,8 @@
 # React Lifecycle and Axios
 
-Universidad Tecnológica Nacional BA
-This is an university work with React (U3-M5) Lifecycle and Axios (connection with the server)
+Universidad Tecnológica Nacional BA.
+
+This is an university work with React (U3-M5) Lifecycle and Axios (connection with the server).
 
 ### Install dependencies
 
@@ -16,5 +17,4 @@ This is an university work with React (U3-M5) Lifecycle and Axios (connection wi
 
 📋 Task 
 
-Crear uno o varios componentes que se conecten a tu servidor express de Libros y que
-muestre el listado de todos los libros cargados en el servidor.
+Create one or more components that connect to your express server and show the list of all the books uploaded to the server.
